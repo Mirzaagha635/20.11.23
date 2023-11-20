@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.collapsediv {
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 30px;
+  background-color: #EB566C;
+  color: aliceblue;
+  border: none;
+}
+
+section {
+  position: relative;
+}
+
+.content1 {
+  position: absolute;
+  top: 158px;
+  left: 120px;
+}
+
+.singlecat {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#icon {
+  display: flex;
+}
